@@ -1,6 +1,6 @@
  document.body.innerHTML = `
   <iframe 
-    src="https://tours.savitarrealty.in/embed/tour/2c896e83"
+    src="https://tours.savitarrealty.in/virtualtour/97c763c4"
     style="width:100%; height:100%; border:0; display:block"
     frameborder="0"
     scrolling="no"
