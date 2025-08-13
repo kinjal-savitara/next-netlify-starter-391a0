@@ -7,12 +7,18 @@ export default function Aerial() {
  const [formData, setFormData] = useState({ name: "", mobile: "" });
   const [submitted, setSubmitted] = useState(false);
 
-   useEffect(() => {
+    
+
+ useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "/aerial.js";
+    script.async = true;
+    document.body.appendChild(script);
     document.documentElement.style.height = "100%";
     document.body.style.height = "100%";
     document.body.style.margin = "0";
   }, []);
-
+ 
    
   const handleChange = (e) => {
     const { name, value } = e.target;
