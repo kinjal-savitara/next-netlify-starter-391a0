@@ -35,7 +35,7 @@ export default function Home() {
         width="100%"
         height="100%"
         allow="vr;xr-spatial-tracking;gyroscope;accelerometer;magnetometer;"
-        title="Sahjanand Marigold"
+        title=""
         style={{ display: "block", border: "none" }}
       ></iframe>
     </div>
